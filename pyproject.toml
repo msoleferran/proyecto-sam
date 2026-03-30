@@ -1,7 +1,7 @@
 [project]
 name = "proyecto-sam"
 version = "0.1.0"
-description = "Add your description here"
+description = "Proyecto para analizar archivos SAM"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
