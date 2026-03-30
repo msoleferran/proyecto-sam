@@ -11,15 +11,15 @@ Esta herramienta permite analizar archivos **SAM** (Sequence Alignment/Map) para
 Esta herramienta está gestionada con **Nextflow** para ejecutar el script de forma reproducible. 
 
 ## Requisitos
-Python 3.10+
-uv
-Nextflow
+- Python 3.10+
+- uv
+- Nextflow
 
 
 ## Estructura del proyecto
+- `data`: carpeta con un archivo de prueba (`test.sam`)
 - `main.nf`: pipeline de Nextflow
 - `main.py`: script de python
-- `data`: archivo de ejemplo
 
 
 ## Instalación
