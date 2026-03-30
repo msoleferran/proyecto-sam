@@ -1,9 +1,9 @@
 #!/usr/bin/env nextflow
 
 // ---PARAMETROS DEL WORKFLOW---
-// Definimos la ruta, se puede cambiar siempre utilizando --sam
+// Definimos la ruta, hay que cambiarla utilizando --sam
 
-params.sam = "${launchDir}/*.sam"
+params.sam = "${projectDir}/*.sam"
 
 // --- PROCESO DE ANALISIS ---
 
@@ -14,9 +14,10 @@ process ANALIZAR_SAM {
     output: 
     stdout
 
+// corremos el script con uv 
     script:
     """
-    uv run python3 ${projectDir}/main.py ${sam} // Corremos el script con uv
+    uv run python3 ${projectDir}/main.py ${sam}
     """
 }
 
