@@ -17,10 +17,11 @@ Esta herramienta está gestionada con **Nextflow** para ejecutar el script de fo
 
 
 ## Estructura del proyecto
-- `data`: carpeta con un archivo de prueba (`test.sam`)
+- `README.md`: documentación del programa
 - `main.nf`: pipeline de Nextflow
 - `main.py`: script de python
-
+- `data`: carpeta con un archivo de prueba (`test.sam`)
+- `pyproject.toml`: y `uv.lock`: dependecias del proyecto Python
 
 ## Instalación
 ### Clonar el repositorio
